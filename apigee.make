@@ -161,10 +161,10 @@ libraries[glib][download][url] = "git://github.com/halstead/glip.git"
 libraries[glib][directory_name] = "glib"
 libraries[glib][destination] = 'libraries'
 
-libraries[spyc][download][type] = get
-libraries[spyc][download][url] = 'http://spyc.googlecode.com/files/spyc-0.5.zip'
-libraries[spyc][directory_name] = 'spyc'
-libraries[spyc][destination] = 'libraries'
+;libraries[spyc][download][type] = get
+;libraries[spyc][download][url] = 'http://spyc.googlecode.com/files/spyc-0.5.zip'
+;libraries[spyc][directory_name] = 'spyc'
+;libraries[spyc][destination] = 'libraries'
 
 libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.7.zip"
