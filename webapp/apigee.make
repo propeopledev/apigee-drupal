@@ -72,7 +72,7 @@ projects[panels][subdir] = "contrib"
 projects[panelizer][subdir] = "contrib"
 projects[panels_everywhere][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
-projects[print][subdir] = "contrib"
+;projects[print][subdir] = "contrib"
 projects[querypath][subdir] = "contrib"
 projects[recaptcha][subdir] = "contrib"
 projects[references][subdir] = "contrib"
@@ -202,11 +202,6 @@ libraries[glip][download][url] = "git://github.com/halstead/glip.git"
 libraries[glip][directory_name] = "glip"
 libraries[glip][destination] = 'libraries'
 
-libraries[spyc][download][type] = 'get'
-libraries[spyc][download][url] = 'http://spyc.googlecode.com/svn/trunk/spyc.php'
-libraries[spyc][directory_name] = "spyc"
-libraries[spyc][destination] = 'libraries'
-
 libraries[lessphp][download][type] = "git"
 libraries[lessphp][download][url] = 'git://github.com/leafo/lessphp.git'
 libraries[lessphp][directory_name] = "lessphp"
@@ -216,10 +211,3 @@ libraries[colorpicker][download][type] = 'get'
 libraries[colorpicker][download][url] = 'http://mktg-dev.apigee.com/libraries/colorpicker.zip'
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
-
-
-
-libraries[prettify][download][type] = "get"
-libraries[prettify][download][url] = "http://google-code-prettify.googlecode.com/files/prettify-1-Jun-2011.tar.bz2"
-libraries[prettify][directory_name] = "prettify"
-libraries[prettify][destination] = "libraries"
