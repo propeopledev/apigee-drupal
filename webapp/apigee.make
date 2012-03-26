@@ -97,11 +97,11 @@ projects[wysiwyg][subdir] = "contrib"
 
 ;moved to sites/all/modules/custom
 
-;projects[less][subdir] = "custom"
-;projects[less][download][type] = "git"
-;projects[less][download][url] = http://git.drupal.org/project/less.git
-;projects[less][download][branch] = "7.x-2.x"
-;projects[less][patch][] = http://drupal.org/files/less_support_theme_settings_0.patch
+projects[less][subdir] = "custom"
+projects[less][download][type] = "git"
+projects[less][download][url] = http://git.drupal.org/project/less.git
+projects[less][download][branch] = "7.x-2.x"
+projects[less][patch][] = http://drupal.org/files/less_support_theme_settings_0.patch
 
 ; for whatever reason these projects were pointed to a specific version
 ; they should be repointed at the latest stable version
@@ -203,7 +203,7 @@ libraries[glip][directory_name] = "glip"
 libraries[glip][destination] = 'libraries'
 
 libraries[spyc][download][type] = 'get'
-libraries[spyc][download][url] = 'http://spyc.googlecode.com/svn/trunk/spyc.php'
+libraries[spyc][download][url] = 'http://spyc.googlecode.com/files/spyc-0.5.zip'
 libraries[spyc][directory_name] = "spyc"
 libraries[spyc][destination] = 'libraries'
 
