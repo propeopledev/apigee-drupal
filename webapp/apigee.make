@@ -52,7 +52,6 @@ projects[imagemagick][subdir] = 'contrib'
 projects[imce][subdir] = 'contrib'
 projects[imce_wysiwyg][subdir] = 'contrib'
 projects[itoggle][subdir] = 'contrib'
-projects[job_scheduler][subdir] = 'contrib'
 projects[jquerymobile][subdir] = 'contrib'
 projects[jquery_update][subdir] = 'contrib'
 projects[jquery_colorpicker][subdir] = 'contrib'
@@ -115,7 +114,8 @@ projects[autologout][subdir] = "contrib"
 projects[autologout][version] = "2.x-dev"
 projects[contentapi][subdir] = "contrib"
 projects[contentapi][version] = "1.0-alpha3"
-
+projects[job_scheduler][subdir] = 'contrib'
+projects[job_scheduler][version] = '2.0-alpha2'
 projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.x-dev"
 projects[persistent_login][subdir] = "contrib"
