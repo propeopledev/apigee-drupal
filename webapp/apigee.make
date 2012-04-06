@@ -154,6 +154,18 @@ projects[apigee_bootstrap][download][url] = "git://github.com/apigee/apigee_drup
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 
 
+; devconnect mods
+; comment these out if you're not building
+; a devconnect instance
+; if you are developing for devconnect
+; use a --working-copy switch on the make
+; command to maintain .git repo info
+projects[devconnect][type] = module
+projects[devconnect][subdir] = custom
+projects[devconnect][download][type] = 'git'
+projects[devconnect][download][url] = "git://github.com/apigee/devconnect.git"
+projects[devconnect][download][branch] = "7.x-1.0-dev"
+
 ; apigee SSO module
 projects[apigee_sso][type] = module
 projects[apigee_sso][subdir] = custom
