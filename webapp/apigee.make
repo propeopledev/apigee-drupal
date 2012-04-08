@@ -178,6 +178,13 @@ projects[rst][download][type] = 'git'
 projects[rst][download][url] = 'http://git.drupal.org/sandbox/stovak/1455522.git'
 
 
+projects[gi][type] = module
+projects[gi][subdir]= custom
+projects[gi][download][type] = 'git'
+projects[gi][download][url] = 'http://git.drupal.org/sandbox/stovak/1470710.git'
+projects[gi][download][branch] = "7.x-1.x"
+
+
 ; Libraries
 ; ------------------------------------------------------------------
 ; unfortunately, we can't link directly to a /download/latest 
