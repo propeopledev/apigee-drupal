@@ -135,8 +135,8 @@ projects[prettify][subdir]="contrib"
 projects[prettify][version] = "1.x-dev"
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.x-dev"
-projects[Entity_dependency] = "contrib"
-projects[Entity_dependency] = "1.0-alpha1"
+projects[entity_dependency] = "contrib"
+projects[entity_dependency] = "1.0-alpha1"
 
 
 ; this will un-whitescreen your install if you move modules around
