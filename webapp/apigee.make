@@ -31,6 +31,7 @@ projects[domain_views][subdir] = "contrib"
 projects[ds][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
+projects[Entity_dependency] = "contrib"
 projects[faq][subdir] = 'contrib'
 projects[facetapi][subdir] = "contrib"
 ;projects[fbconnect][subdir] = "contrib"
@@ -76,7 +77,6 @@ projects[querypath][subdir] = "contrib"
 projects[recaptcha][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
-projects[services][subdir] = "contrib"
 projects[service_links][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
 projects[strongarm][subdir] = 'contrib'
@@ -134,6 +134,8 @@ projects[oauthconnector][subdir] = "contrib"
 projects[oauthconnector][version] = "1.x-dev"
 projects[prettify][subdir]="contrib"
 projects[prettify][version] = "1.x-dev"
+projects[services][subdir] = "contrib"
+projects[services][version] = "3.x-dev"
 
 
 ; this will un-whitescreen your install if you move modules around
