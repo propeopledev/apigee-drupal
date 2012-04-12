@@ -146,14 +146,14 @@ projects[entity_dependency] = "1.0-alpha1"
 ; apigee theme
 projects[apigee][type] = "theme"
 projects[apigee][download][type] = 'git'
-projects[apigee][download][url] = "git://github.com/apigee/apigee_drupal_theme.git"
+projects[apigee][download][url] = "git@github.com:apigee/apigee_drupal_theme.git"
 projects[apigee][download][branch] = "7.x-1.x"
 
 ; apigee bootstrap module
 projects[apigee_bootstrap][type] = module
 projects[apigee_bootstrap][subdir] = custom
 projects[apigee_bootstrap][download][type] = 'git'
-projects[apigee_bootstrap][download][url] = "git://github.com/apigee/apigee_drupal_bootstrap.git"
+projects[apigee_bootstrap][download][url] = "git@github.com:apigee/apigee_drupal_bootstrap.git"
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 
 
@@ -166,14 +166,14 @@ projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 projects[devconnect][type] = module
 projects[devconnect][subdir] = custom
 projects[devconnect][download][type] = 'git'
-projects[devconnect][download][url] = "git://github.com/apigee/devconnect.git"
+projects[devconnect][download][url] = "git@github.com:apigee/devconnect.git"
 projects[devconnect][download][branch] = "7.x-4.0-dev"
 
 ; apigee SSO module
 projects[apigee_sso][type] = module
 projects[apigee_sso][subdir] = custom
 projects[apigee_sso][download][type] = 'git'
-projects[apigee_sso][download][url] = "git://github.com/apigee/apigee_drupal_sso.git"
+projects[apigee_sso][download][url] = "git@github.com:apigee/apigee_drupal_sso.git"
 
 projects[rst][type] = module
 projects[rst][subdir]= custom
