@@ -138,8 +138,10 @@ projects[prettify][subdir]="contrib"
 projects[prettify][version] = "1.x-dev"
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.x-dev"
-projects[entity_dependency] = "contrib"
-projects[entity_dependency] = "1.0-alpha1"
+projects[entity_dependency][subdir] = "contrib"
+projects[entity_dependency][version] = "1.0-alpha1"
+projects[node_embed][subdir]="contrib"
+projects[node_embed][version] = "1.0-rc2"
 
 
 ; apigee theme
