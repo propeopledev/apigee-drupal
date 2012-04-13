@@ -28,6 +28,7 @@ projects[devel][subdir] = 'contrib'
 projects[domain][subdir] = "contrib"
 projects[domain_ctools][subdir] = "contrib"
 projects[domain_views][subdir] = "contrib"
+projects[download_file][subdir] = "contrib"
 projects[ds][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
@@ -39,6 +40,7 @@ projects[feeds][subdir] = 'contrib'
 projects[field_group][subdir] = 'contrib'
 projects[flood_control][subdir] = "contrib"
 projects[footermap][subdir] = 'contrib'
+projects[gist_filter][subdir] = "contrib"
 projects[git_deploy][subdir] = "contrib"
 projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.x-dev"
@@ -77,6 +79,7 @@ projects[recaptcha][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[service_links][subdir] = "contrib"
+projects[services_views][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
 projects[strongarm][subdir] = 'contrib'
 projects[styles][subdir] = "contrib"
@@ -138,10 +141,6 @@ projects[services][version] = "3.x-dev"
 projects[entity_dependency] = "contrib"
 projects[entity_dependency] = "1.0-alpha1"
 
-
-; this will un-whitescreen your install if you move modules around
-; needs to be installed in sites/all/modules
-;projects[] = "registry_rebuild"
 
 ; apigee theme
 projects[apigee][type] = "theme"
@@ -238,3 +237,7 @@ libraries[colorpicker][download][type] = 'get'
 libraries[colorpicker][download][url] = 'http://mktg-dev.apigee.com/libraries/colorpicker.zip'
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
+
+libraries[prettify][download][type] = "get"
+libraries[prettify][download][url] = "http://google-code-prettify.googlecode.com/files/prettify-1-Jun-2011.tar.bz2"
+libraries[prettify][destination] = "libraries"
