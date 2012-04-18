@@ -58,6 +58,7 @@ projects[jquerymobile][subdir] = 'contrib'
 projects[jquery_update][subdir] = 'contrib'
 projects[jquery_colorpicker][subdir] = 'contrib'
 projects[ldap][subdir] = "contrib"
+projects[less][subdir] = "custom"
 projects[libraries][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[link_node][subdir] = "contrib"
@@ -96,13 +97,6 @@ projects[webform][subdir] = "contrib"
 projects[weight][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 
-;moved to sites/all/modules/custom
-
-projects[less][subdir] = "custom"
-projects[less][download][type] = "git"
-projects[less][download][url] = http://git.drupal.org/project/less.git
-projects[less][download][branch] = "7.x-2.x"
-projects[less][patch][] = http://drupal.org/files/less_support_theme_settings_0.patch
 
 ; for whatever reason these projects were pointed to a specific version
 ; they should be repointed at the latest stable version
