@@ -80,6 +80,7 @@ projects[querypath][subdir] = "contrib"
 projects[recaptcha][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
+projects[sass][subdir] = "contrib"
 projects[service_links][subdir] = "contrib"
 projects[services_views][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
