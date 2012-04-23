@@ -10,6 +10,7 @@ projects[drupal][download][url] = "http://git.drupal.org/project/drupal.git"
 ;Contrib projects 
 projects[addressfield][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
+projects[admin][subdir] = "contrib"
 projects[advanced_forum][subdir] = "contrib"
 projects[author_pane][subdir] = "contrib"
 projects[apachesolr][subdir] = "contrib"
@@ -143,6 +144,11 @@ projects[apigee][type] = "theme"
 projects[apigee][download][type] = 'git'
 projects[apigee][download][url] = "git@github.com:apigee/apigee_drupal_theme.git"
 projects[apigee][download][branch] = "7.x-1.x"
+
+; development seed's admin theme
+projects[rubik][type]=theme
+
+
 
 ; apigee bootstrap module
 projects[apigee_bootstrap][type] = module
