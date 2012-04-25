@@ -159,7 +159,7 @@ projects[apigee_bootstrap][download][url] = "git@github.com:apigee/apigee_drupal
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 
 projects[less][subdir] = "custom"
-projects[less][patch] = "http://drupal.org/files/patch_commit_b4624f02dd7b.patch"
+projects[less][patch] = "https://raw.github.com/gist/2485702/8b51b90c8f658a7a6c521bff301cc96671cd7cea/pre_post_less.patch"
 
 
 
