@@ -59,7 +59,6 @@ projects[jquerymobile][subdir] = 'contrib'
 projects[jquery_update][subdir] = 'contrib'
 projects[jquery_colorpicker][subdir] = 'contrib'
 projects[ldap][subdir] = "contrib"
-projects[less][subdir] = "custom"
 projects[libraries][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[link_node][subdir] = "contrib"
@@ -158,6 +157,10 @@ projects[apigee_bootstrap][subdir] = custom
 projects[apigee_bootstrap][download][type] = 'git'
 projects[apigee_bootstrap][download][url] = "git@github.com:apigee/apigee_drupal_bootstrap.git"
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
+
+projects[less][subdir] = "custom"
+projects[less][patch] = "http://drupal.org/files/patch_commit_b4624f02dd7b.patch"
+
 
 
 ; devconnect mods
