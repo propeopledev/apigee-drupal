@@ -159,8 +159,11 @@ projects[apigee_bootstrap][download][url] = "git@github.com:apigee/apigee_drupal
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 
 projects[less][subdir] = "custom"
-projects[less][patch] = "https://raw.github.com/gist/2485702/8b51b90c8f658a7a6c521bff301cc96671cd7cea/pre_post_less.patch"
-
+projects[less][type] = module
+projects[less][subdir] = custom
+projects[less][download][type] = 'git'
+projects[less][download][url] = "git@github.com:stovak/less.git"
+projects[less][download][branch] = "7.x-1.x"
 
 
 ; devconnect mods
@@ -247,4 +250,5 @@ libraries[colorpicker][destination] = "libraries"
 
 libraries[prettify][download][type] = "get"
 libraries[prettify][download][url] = "http://google-code-prettify.googlecode.com/files/prettify-1-Jun-2011.tar.bz2"
+libraries[prettify][directory_name] = "prettify"
 libraries[prettify][destination] = "libraries"
