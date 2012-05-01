@@ -161,7 +161,7 @@ projects[less][type] = module
 projects[less][subdir] = custom
 projects[less][download][type] = 'git'
 projects[less][download][url] = "git@github.com:stovak/less.git"
-projects[less][download][branch] = "7.x-1.x"
+projects[less][download][branch] = "7.x-1.x-dev"
 
 
 ; devconnect mods
