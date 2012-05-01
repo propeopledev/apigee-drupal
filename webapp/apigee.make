@@ -130,8 +130,6 @@ projects[connector][subdir] = "contrib"
 projects[connector][version] = "1.x-dev"
 projects[oauthconnector][subdir] = "contrib"
 projects[oauthconnector][version] = "1.x-dev"
-projects[prettify][subdir]="contrib"
-projects[prettify][version] = "1.x-dev"
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.x-dev"
 projects[entity_dependency][subdir] = "contrib"
@@ -159,7 +157,6 @@ projects[apigee_bootstrap][download][type] = 'git'
 projects[apigee_bootstrap][download][url] = "git@github.com:apigee/apigee_drupal_bootstrap.git"
 projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 
-projects[less][subdir] = "custom"
 projects[less][type] = module
 projects[less][subdir] = custom
 projects[less][download][type] = 'git'
@@ -249,7 +246,3 @@ libraries[colorpicker][download][url] = 'http://mktg-dev.apigee.com/libraries/co
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
-libraries[prettify][download][type] = "get"
-libraries[prettify][download][url] = "http://google-code-prettify.googlecode.com/files/prettify-1-Jun-2011.tar.bz2"
-libraries[prettify][directory_name] = "prettify"
-libraries[prettify][destination] = "libraries"
