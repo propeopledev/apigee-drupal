@@ -4,16 +4,19 @@ api = 2
 ;core
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "git"
-projects[drupal][download][tag] = "7.12"
+projects[drupal][download][tag] = "7.14"
 projects[drupal][download][url] = "http://git.drupal.org/project/drupal.git"
 
 ;Contrib projects 
+;projects[fbconnect][subdir] = "contrib"
+;projects[print][subdir] = "contrib"
 projects[addressfield][subdir] = "contrib"
-projects[admin_menu][subdir] = "contrib"
 projects[admin][subdir] = "contrib"
+projects[admin_menu][subdir] = "contrib"
 projects[advanced_forum][subdir] = "contrib"
-projects[author_pane][subdir] = "contrib"
 projects[apachesolr][subdir] = "contrib"
+projects[appbar][subdir] = "contrib"
+projects[author_pane][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[captcha][subdir] = "contrib"
 projects[chart][subdir] = "contrib"
@@ -23,9 +26,9 @@ projects[content_access][subdir] = "contrib"
 projects[context][subdir] = "contrib"
 projects[ctools][subdir] = "contrib"
 projects[custom_breadcrumbs][subdir] = "contrib"
-projects[diff][subdir] = 'contrib'
 projects[deploy][subdir] = 'contrib'
 projects[devel][subdir] = 'contrib'
+projects[diff][subdir] = 'contrib'
 projects[domain][subdir] = "contrib"
 projects[domain_ctools][subdir] = "contrib"
 projects[domain_views][subdir] = "contrib"
@@ -33,9 +36,8 @@ projects[download_file][subdir] = "contrib"
 projects[ds][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
-projects[faq][subdir] = 'contrib'
 projects[facetapi][subdir] = "contrib"
-;projects[fbconnect][subdir] = "contrib"
+projects[faq][subdir] = 'contrib'
 projects[features][subdir] = 'contrib'
 projects[feeds][subdir] = 'contrib'
 projects[field_group][subdir] = 'contrib'
@@ -56,33 +58,33 @@ projects[imce][subdir] = 'contrib'
 projects[imce_wysiwyg][subdir] = 'contrib'
 projects[itoggle][subdir] = 'contrib'
 projects[jquerymobile][subdir] = 'contrib'
-projects[jquery_update][subdir] = 'contrib'
 projects[jquery_colorpicker][subdir] = 'contrib'
+projects[jquery_update][subdir] = 'contrib'
 projects[ldap][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
+projects[linkchecker][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[link_node][subdir] = "contrib"
-projects[linkchecker][subdir] = "contrib"
 projects[location][subdir] = "contrib"
 projects[markdown][subdir] = "contrib"
 projects[mass_contact][subdir] = "contrib"
 projects[mediaelement][subdir] = "contrib"
 projects[media][subdir] = "contrib"
 projects[metatags_quick][subdir] = "contrib"
+projects[migrate][subdir] = "contrib"
 projects[oauth][subdir] = "contrib"
 projects[og][subdir] = "contrib"
-projects[panels][subdir] = "contrib"
 projects[panelizer][subdir] = "contrib"
+projects[panels][subdir] = "contrib"
 projects[panels_everywhere][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
-;projects[print][subdir] = "contrib"
 projects[querypath][subdir] = "contrib"
 projects[recaptcha][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[sass][subdir] = "contrib"
-projects[service_links][subdir] = "contrib"
 projects[services_views][subdir] = "contrib"
+projects[service_links][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
 projects[strongarm][subdir] = 'contrib'
 projects[styles][subdir] = "contrib"
@@ -94,10 +96,11 @@ projects[uuid][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
-projects[workflow][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[weight][subdir] = "contrib"
+projects[workflow][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
+
 
 
 ; for whatever reason these projects were pointed to a specific version
@@ -138,6 +141,8 @@ projects[entity_dependency][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[node_embed][subdir]="contrib"
 projects[node_embed][version] = "1.0-rc2"
+projects[scanner][subdir]="contrib"
+projects[scanner][version] = "1.x-dev"
 
 
 ; apigee theme
@@ -162,6 +167,26 @@ projects[apigee_bootstrap][download][branch] = "7.x-1.x"
 projects[less][subdir] = "custom"
 projects[less][patch] = "https://raw.github.com/gist/2485702/8b51b90c8f658a7a6c521bff301cc96671cd7cea/pre_post_less.patch"
 
+
+; work in progress for the WADL=>entity
+;projects[objective_forms][type] = module
+;projects[objective_forms][subdir]= custom
+;projects[objective_forms][download][type] = 'git'
+;projects[objective_forms][download][url] = git@github.com:stovak/objective_forms
+;projects[objective_forms][download][branch] = "7.x"
+
+;projects[php_lib][type] = module
+;projects[php_lib][subdir]= custom
+;projects[php_lib][download][type] = 'git'
+;projects[php_lib][download][url] = git@github.com:stovak/php_lib
+;projects[php_lib][download][branch] = "7.x"
+
+;Objective Forms
+;projects[xml_forms][type] = module
+;projects[xml_forms][subdir]= custom
+;projects[xml_forms][download][type] = 'git'
+;projects[xml_forms][download][url] = git@github.com:stovak/xml_forms.git
+;projects[xml_forms][download][branch] = "7.x"
 
 
 ; devconnect mods
