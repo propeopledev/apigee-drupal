@@ -287,7 +287,7 @@ libraries[colorpicker][download][url] = 'http://mktg-dev.apigee.com/libraries/co
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
-libraries[SolrPhpClient][download][type] = "svn"
-libraries[SolrPhpClient][download][url] ="http://solr-php-client.googlecode.com/svn/trunk/"
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] ="http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 libraries[SolrPhpClient][destination] = "libraries"
