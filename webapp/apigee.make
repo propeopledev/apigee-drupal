@@ -86,12 +86,18 @@ projects[references][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[sass][subdir] = "contrib"
 projects[search_api][subdir] = "contrib"
-projects[search_api_apachesolr][subdir] = "contrib"
 projects[search_api_ajax][subdir] = "contrib"
+projects[search_api_attachments][subdir] = "contrib"
+projects[search_api_autocomplete][subdir] = "contrib"
 projects[search_api_live_results][subdir] = "contrib"
-projects[search_api_sorts][subdir] = "contrib"
-projects[search_api_views][subdir] = "contrib"
+projects[search_api_location][subdir] = "contrib"
+projects[search_api_multi][subdir] = "contrib"
 projects[search_api_page][subdir] = "contrib"
+projects[search_api_solr][subdir] = "contrib"
+projects[search_api_sorts][subdir] = "contrib"
+projects[search_api_ranges][subdir] = "contrib"
+projects[search_api_facets_paths][subdir] = "contrib"
+projects[search_api_views][subdir] = "contrib"
 projects[services_views][subdir] = "contrib"
 projects[service_links][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
@@ -109,6 +115,7 @@ projects[webform][subdir] = "contrib"
 projects[weight][subdir] = "contrib"
 projects[workflow][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
+
 
 
 
@@ -280,3 +287,7 @@ libraries[colorpicker][download][url] = 'http://mktg-dev.apigee.com/libraries/co
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
+libraries[SolrPhpClient][download][type] = "svn"
+libraries[SolrPhpClient][download][url] ="http://solr-php-client.googlecode.com/svn/trunk/"
+libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
+libraries[SolrPhpClient][destination] = "libraries"
