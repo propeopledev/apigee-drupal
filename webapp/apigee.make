@@ -117,6 +117,7 @@ projects[webform][subdir] = "contrib"
 projects[weight][subdir] = "contrib"
 projects[workflow][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
+projects[XHProf][subdir] = "contrib"
 
 
 
