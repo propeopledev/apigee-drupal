@@ -19,6 +19,7 @@ projects[apachesolr_autocomplete][subdir] = "contrib"
 projects[appbar][subdir] = "contrib"
 projects[author_pane][subdir] = "contrib"
 projects[backbone][subdir] = "contrib"
+projects[back_to_top][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[captcha][subdir] = "contrib"
 projects[chart][subdir] = "contrib"
@@ -118,7 +119,7 @@ projects[weight][subdir] = "contrib"
 projects[workflow][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 projects[XHProf][subdir] = "contrib"
-
+projects[views_accordion][subdir] = "contrib"
 
 
 
