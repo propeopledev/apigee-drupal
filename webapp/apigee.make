@@ -100,7 +100,6 @@ projects[search_api_solr][subdir] = "contrib"
 projects[search_api_sorts][subdir] = "contrib"
 projects[search_api_ranges][subdir] = "contrib"
 projects[search_api_facets_paths][subdir] = "contrib"
-projects[search_api_views][subdir] = "contrib"
 projects[services_views][subdir] = "contrib"
 projects[service_links][subdir] = "contrib"
 projects[smtp][subdir] = 'contrib'
