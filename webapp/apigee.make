@@ -301,3 +301,9 @@ libraries[backbone][download][url] ="git://github.com/documentcloud/backbone.git
 libraries[backbone][download][tag] = "0.9.2"
 libraries[backbone][directory_name] = "backbone"
 libraries[backbone][destination] = "libraries"
+
+libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][download][url] ="git://github.com/twitter/bootstrap.git"
+libraries[bootstrap][download][tag] = "v2.0.3"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][destination] = "libraries"
