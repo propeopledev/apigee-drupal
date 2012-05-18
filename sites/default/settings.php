@@ -1,29 +1,5 @@
 <?php
 
-switch($_SERVER['HTTP_HOST']) {
-	
-	
-	case "devconnect.apigee.com":
-		
-		$databases = array(
-			'default' => 
-		  array (
-		    'default' => 
-		    array (
-		      'database' => 'devconnect4',
-		      'username' => 'devconnect',
-		      'password' => 'd3vc0nnect4G',
-		      'host' => 'cmy00apigee',
-		      'port' => '',
-		      'driver' => 'mysql',
-		      'prefix' => '',
-		    ),
-		  ),	
-		);
-		break;
-	
-	default:
-	
 		$databases = array(
 			'default' => 
 		  array (
@@ -40,9 +16,6 @@ switch($_SERVER['HTTP_HOST']) {
 		  ),	
 		);
 	
-	
-}
-
 $update_free_access = FALSE;
 $drupal_hash_salt = '';
 ini_set('session.gc_probability', 1);
