@@ -5,10 +5,10 @@
 		  array (
 		    'default' => 
 		    array (
-		      'database' => 'devconnect4',
+		      'database' => 'databasename',
 		      'username' => 'drupal',
 		      'password' => 'we-love-apis',
-		      'host' => 'localhost',
+		      'host' => 'somehost.com',
 		      'port' => '',
 		      'driver' => 'mysql',
 		      'prefix' => '',
