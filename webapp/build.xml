@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<project name="staging" default="enable modules" description="Jenkins Staging Build">
+	<target name="apigee-drupal">
+		<exec command="drush make --prepare-install --working-copy --no-gitinfofile --no-cache -y --force-complete apigee.make" error="error" checkreturn="true"></exec>
+		<loadfile property="en.error" file="error"/>
+		<if>
+			<contains string="${en.error}" substring="warning"/>
+			<then>
+				<property name="en.fail" value="Build FAILED!!!"/>
+			</then>
+		</if>
+		<fail if="en.fail" message="${en.fail}"/>
+	</target>
+</project>
