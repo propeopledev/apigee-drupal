@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<project name="staging" default="enable modules" description="Jenkins Staging Build">
+<project name="apigee-drupal-project" default="apigee-drupal" description="Apigee Drupal Build">
 	<target name="apigee-drupal">
-		<exec command="drush dl phingdrushtask"></exec>
-		<taskdef name="drush" classname="DrushTask" file="phingdrushtask/DrushTask.php" />
+		<taskdef name="drush" classname="DrushTask" classpath="../taskdef" file="../taskdef/DrushTask.php" />
 	    <drush command="make" assume="yes">
 			<option name="prepare-install"></option>
 			<option name="working-copy"></option>
 			<option name="no-gitinfofile"></option>
 			<option name="no-cache"></option>
-			<option name="force-complete"></option>	
+			<option name="force-complete"></option>
+			<param>apigee.make</param>
 		</drush>
 		<loadfile property="en.error" file="error"/>
 		<if>
@@ -18,5 +18,6 @@
 			</then>
 		</if>
 		<fail if="en.fail" message="${en.fail}"/>
+		
 	</target>
 </project>
