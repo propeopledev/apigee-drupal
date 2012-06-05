@@ -113,6 +113,7 @@ projects[strongarm][subdir] = 'contrib'
 projects[styles][subdir] = "contrib"
 projects[taxonomy_access][subdir] = "contrib"
 projects[textformatter][subdir] = "contrib"
+projects[toc_filter][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[twitter][subdir] = "contrib"
 projects[util][subdir] = "contrib"
