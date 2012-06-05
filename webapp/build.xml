@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="apigee-drupal-project" default="apigee-drupal" description="Apigee Drupal Build">
 	<target name="apigee-drupal">
-		<taskdef name="drush" classname="DrushTask" classpath="../taskdef" file="../taskdef/DrushTask.php" />
+		<taskdef name="drush" classname="DrushTask" file="taskdef/DrushTask.php" />
 	    <drush command="make" assume="yes">
 			<option name="prepare-install"></option>
 			<option name="working-copy"></option>
