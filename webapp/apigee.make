@@ -246,6 +246,11 @@ projects[gi][download][type] = 'git'
 projects[gi][download][url] = 'http://git.drupal.org/sandbox/stovak/1470710.git'
 projects[gi][download][branch] = "7.x-1.x"
 
+projects[wysiwyg_extra][type] = module
+projects[wysiwyg_extra][subdir]= custom
+projects[wysiwyg_extra][download][type] = 'git'
+projects[wysiwyg_extra][download][url] = "git@github.com:apigee/wysiwyg_extra.git"
+projects[wysiwyg_extra][download][branch] = "7.x-1.x"
 
 ; Libraries
 ; ------------------------------------------------------------------
